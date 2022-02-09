@@ -34,9 +34,10 @@ instagram: 'pauloal3xandr3'
 #blog_url: 'myblog.blog.com'
 #email: 'hello@example.com'
 #messenger: 'myfbchat'
-lista-presentes: 'pauloal3xandr3'
+presentes: 'pauloal3xandr3'
+local: 'pauloal3xandr3'
 
-social-links-order: [lista-presentes, facebook, instagram]
+social-links-order: [local, presentes, facebook, instagram]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -144,10 +145,11 @@ social-links:
   - name: snapchat
     url-pattern: snapchat.com/add/__USERNAME__
 
-  - name: quora
-    url-pattern: www.quora.com/profile/__USERNAME__
+  - name: local
+    url-pattern: bit.ly/34G79jU
+    icon-class: fas fa-2x fa-map-marker
 
-  - name: lista-presentes
+  - name: presentes
     url-pattern: lista.havan.com.br/Convidado/ItensListaPresente/600454
     icon-class: fas fa-2x fa-gift
 
