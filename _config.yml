@@ -150,7 +150,8 @@ social-links:
     icon-class: fas fa-2x fa-map-marker
 
   - name: presentes
-    url-pattern: lista.havan.com.br/Convidado/ItensListaPresente/600454
+    url-scheme: http://finalfeliz.de/paulo-luana
+    url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-gift
 
   - name: email
